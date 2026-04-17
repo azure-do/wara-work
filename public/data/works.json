@@ -1,0 +1,212 @@
+{
+  "ok": true,
+  "projects": [
+    {
+      "no": 1,
+      "period": "2025.01",
+      "summary": "補助金・助成金・支援金情報を提供するポータルサイト「補助金ポータル」において、ユーザーの補助金検索・制度理解を支援する AI チャットボット機能の構築を担当。\nサイト上に掲載されている多数の補助金情報をもとに、ユーザーの質問内容に応じて適切な情報へ誘導し、情報探索の負荷軽減と利便性向上を目的とした対話型インターフェースを提供した。",
+      "duties": "・AIチャットボットの要件定義、企画、設計、実装、リリース対応\n・ユーザー課題整理および利用シナリオ策定\n・質問内容（対象者、地域、業種、補助金概要等）に基づく対話フロー設計\n・質問分類、意図判定を含む応答ロジック設計\n・チャットボットUIおよびサイト導線設計\n・テスト、改善、チューニング対応",
+      "role": "本案件では AI チャットボットの*単独開発担当として参画。要件整理から設計・開発・テスト・公開までを一人で担当し、複雑で専門性の高い補助金情報を直感的に理解できる対話型インターフェースとして実装。Webサイト本体の開発とは切り離し、情報探索の入口を担う中核機能としての役割を担った。",
+      "stack": "・生成AI / LLM（自然言語理解・応答生成）\n・プロンプト設計（質問分類、意図判定、回答制御）\n・JavaScript（チャットUI制御、フロントエンド連携）\n・API連携（AIエンジン呼び出し、データ受け渡し）\n・HTML / CSS（チャットボットUI構築）",
+      "screenshot": "https://drive.google.com/file/d/1Qy-QQTnvkNBypRjHMKaeI7Ia8HHUOzuS/view"
+    },
+    {
+      "no": 2,
+      "period": "2025.02",
+      "summary": "既存コーポレートサイト「 hansoku-style.jp 」（Laravel にて構築済み）において、公開中サイトの不具合修正および一部機能・表示の改善対応を担当。新規構築ではなく、既存システムの安定運用と品質向上を目的とした保守・改修案件。",
+      "duties": "・既存 Laravel ベースサイトの仕様およびコード解析\n・本番環境で発生している不具合の調査およびバグ修正\n・一部機能の挙動改善およびロジック修正\n・フロントエンド表示崩れ等の調整対応\n・修正内容のテストおよび本番反映対応",
+      "role": "本案件では、既存 Laravel サイトの改修・保守担当として参画。既存設計を理解したうえで、影響範囲を考慮しながら不具合修正および必要最小限の改善を実施し、ライブサイトの安定性向上に貢献した。",
+      "stack": "・Laravel（既存システム）\n・PHP\n・MySQL\n・JavaScript\n・Tailwind CSS\n・Git",
+      "screenshot": "https://drive.google.com/file/d/1Qy-QQTnvkNBypRjHMKaeI7Ia8HHUOzuS/view"
+    },
+    {
+      "no": 3,
+      "period": "2025.02~2025.04",
+      "summary": "Androidアプリ「ドレミとあそぼ」を FlutterFlow を使ってゼロから設計・実装し、Google Play ストアへリリース。子ども向けの音楽教育アプリとして、音符・音階・リズムなどを楽しく学べる機能を組み込み、教育的価値の高いモバイル体験を提供した。",
+      "duties": "・アプリ要件定義・構成設計（対象年齢、学習コンテンツ設計） \n・FlutterFlow での画面構築およびロジック設定 \n・Firebase をバックエンドとしてデータ・認証・ストレージ連携構築 \n・インタラクティブな学習コンテンツ（ゲーム・クイズ等）の設計 \n・ビルド生成および Google Play ストア申請・公開対応",
+      "role": "本案件では、実装、ストア申請・公開までを単独で担当。FlutterFlow のノーコード/ローコード開発環境を最大限活用しつつ、Firebase をバックエンドとしたデータ連携やアプリ構造を構築。教育アプリとしての品質とユーザー体験を重視し、子ども向け音楽学習を楽しくサポートするモバイルアプリを完成させた。",
+      "stack": "・FlutterFlow：画面・ロジック構築、ビルド生成 \n・Firebase：データベース、認証、ストレージ連携 \n・Google Play Console：アプリ公開・配信管理 \n・レスポンシブ設計（Android 向け最適化）",
+      "screenshot": "https://drive.google.com/file/d/1BBxmkj4yNHsqEWjSgUe1vs84KncQLwt6/view?usp=drive_link"
+    },
+    {
+      "no": 4,
+      "period": "2025.02~2025.05",
+      "summary": "iOSアプリ「ドレミとあそぼ（iOS版）」を FlutterFlow を使ってゼロから設計・実装し、App Store へリリース。子ども向けの音楽教育アプリとして、音符・音階・リズムなどを楽しく学べる機能を組み込み、教育的価値の高いモバイル体験を提供した。",
+      "duties": "・アプリ要件定義および構成設計（対象年齢、学習コンテンツ設計）\n・FlutterFlow での画面構築およびロジック設定\n・Firebase をバックエンドとしてデータ連携および認証・ストレージ構築\n・インタラクティブな学習コンテンツ（ゲーム・クイズ等）の設計\n・ビルド生成および App Store Connect での申請・公開対応",
+      "role": "本案件では、実装、ストア申請・公開までを単独で担当。FlutterFlow を用いたモバイルアプリ構築環境と Firebase バックエンドを組み合わせ、教育アプリとしての品質とユーザー体験を重視した iOS アプリを完成させた。",
+      "stack": "・FlutterFlow（画面設計およびアプリ実装）\n・Firebase（データベース、認証、ストレージ）\n・App Store Connect（配信管理）\n・Firebase Authentication（ユーザー認証管理）\n・Firebase Realtime Database（データ保存）",
+      "screenshot": "https://drive.google.com/file/d/1lPAZfwREaDET2-kELrydEjCouSGaGJ6A/view?usp=drive_link"
+    },
+    {
+      "no": 5,
+      "period": "2025.04~2025.05",
+      "summary": "ふるさと納税関連サイト「 furusele.com 」において、既存公開サイトの更新・改善対応を担当。新規構築ではなく、稼働中サイトを対象に、品質向上・ユーザー信頼性強化・最新トレンドへの対応を目的とした改修を実施した。",
+      "duties": "・既存サイト構造および実装内容の調査・把握\n・表示速度や安定性向上を目的としたパフォーマンス改善対応\n・モバイル利用を前提としたUI/UX調整および導線改善\n・コンテンツ品質の見直しおよび信頼性向上を意識した修正\n・法規制・運用ルール変更（2025年以降のふるさと納税制度）を考慮したロジック・表記の更新\n・既存機能の不具合修正および動作改善\n・修正内容の検証および本番反映対応",
+      "role": "本案件では、既存サイトの保守・改善担当として参画。新規開発ではなく、ライブサイトを前提に影響範囲を考慮しながら、2026年時点の業界水準（パフォーマンス、UX、信頼性、制度対応）に沿ったアップデートを実施し、サイトの継続的価値向上に貢献した。",
+      "stack": "・既存Webアーキテクチャの解析および改修\n・Wordpress (CMS)\n・パフォーマンス最適化対応\n・UI / UX 改善\n・セキュリティおよび運用面の調整",
+      "screenshot": "https://drive.google.com/file/d/1lnyxNnY99nksh8I2PYDTMR9WpQ_27QMy/view?usp=drive_link"
+    },
+    {
+      "no": 6,
+      "period": "2025.05~2025.06",
+      "summary": "ふるさと納税に特化した情報ポータルサイト「ふるさと米ナビ（ furusato-komenavi.com ）」を、MERNスタックを用いて新規に構築。検索性と拡張性を重視し、ユーザーが自治体・返礼品情報を効率的に比較・閲覧できる構成で設計・開発を行った。",
+      "duties": "・サービス要件整理および情報設計\n・フロントエンドの設計・実装（UI構築、状態管理）\n・バックエンドAPIの設計・実装\n・データベース設計およびデータ管理ロジック構築\n・検索・一覧・詳細表示など主要機能の実装\n・全体アーキテクチャ設計\n・開発から動作確認まで一貫対応",
+      "role": "本案件では、フルスタックエンジニアとして参画し、企画段階から設計、実装までを一人で担当。MERNスタックを用いたモダンなWebアプリケーションとして、将来的な機能追加やデータ拡張を見据えた構成で構築した。",
+      "stack": "・MongoDB\n・Express.js\n・React\n・Node.js\n・JavaScript\n・REST API",
+      "screenshot": "https://drive.google.com/file/d/1S8Q_GU21efHiFWBs92lskSnaeJSwWRnX/view?usp=drive_link"
+    },
+    {
+      "no": 7,
+      "period": "2025.06 ~ 2025.12",
+      "summary": "採用サイト「 sinmido-recruit.com 」において、参考サイトをもとにした構成設計から、デザイン、実装、本番公開までを一貫して担当。企業の採用ブランディングおよび応募導線の最適化を目的としたコーポレート採用サイトを構築した。",
+      "duties": "・参考サイト分析およびサイト構成・情報設計\n・採用サイト全体のデザイン設計（UI / UX）\n・WordPress を用いたCMS設計およびテーマ構築\n・React を用いたインタラクティブUIの実装\n・ページ実装（トップ、募集要項、会社情報 等）\n・レスポンシブ対応および表示最適化\n・テスト、調整、本番公開までの一連対応",
+      "role": "本案件では、要件整理からデザイン、フロントエンド実装、CMS構築、公開までを単独で担当。クライアント要望および参考サイトを踏まえ、採用ターゲットに訴求するデザインと導線設計を行い、企業イメージ向上と応募促進を意識したサイトを実現した。",
+      "stack": "・WordPress（CMS、テーマ開発）\n・React（UIコンポーネント、動的表現）\n・JavaScript\n・HTML / CSS\n・レスポンシブデザイン\n・Figmaデザイン設計（参考サイトベース）",
+      "screenshot": "https://drive.google.com/file/d/1E1I9DMtdTmjnEejK3VSBPDxihNMgDiZw/view?usp=drive_link"
+    },
+    {
+      "no": 8,
+      "period": "2025.07~2025.08",
+      "summary": "「 bonsai-matsushima.com 」は、松島の自然と盆栽芸術を融合した体験・文化訴求型ウェブサイトとして構築された公式サイト。自然美、文化体験（盆栽観賞・和の精神体験）、松島観光の魅力を視覚的に伝えるコンテンツ中心のランディングサイトを WordPress で実装した。",
+      "duties": "・クライアント共有のデザインデータをもとにした HTML/CSS コーディング\n・WordPress テーマ構築およびテンプレート設計\n・多言語対応コンテンツ（日本語／英語／繁体中文）の実装\n・レスポンシブ対応（スマホ・タブレット最適化）\n・画像最適化およびカルーセル／ギャラリー UI 実装\n・お問い合わせフォームなど基本機能の実装\n・サーバー構築およびホスティング設定、ドメイン設定\n・テスト、公開、運用準備まで一貫対応",
+      "role": "本案件では、共有されたデザインを基に、設計・コーディング・CMS（WordPress）実装・公開までを 単独で担当。視覚的に訴求力の高い文化体験型コンテンツを、運用しやすい WordPress で構築し、クライアントの発信力強化およびサイト運用の安定化に貢献した。",
+      "stack": "・WordPress（テーマ実装、CMS構築）\n・PHP\n・HTML / CSS\n・JavaScript（インタラクティブ UI）\n・レスポンシブデザイン\n・サーバー / ホスティング設定",
+      "screenshot": "https://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link"
+    },
+    {
+      "no": 9,
+      "period": "2025.08",
+      "summary": "** & **公式ECサイトにおいてShopifyを活用したサイト構築プロジェクトに参加。全体構成及びデザイン方針を考慮し、メインページと下層2ページの設計及び実装を担当した。その他の下位ページについては、他のエンジニアが並行して構築を進めた。",
+      "duties": "・Shopifyを用いたトップページの新規構築\n・デザイン意図を反映したセクション構成・レイアウト設計\n・Shopifyテーマのカスタマイズ\n・レスポンシブ対応（PC / タブレット / スマートフォン）\n・表示パフォーマンスおよびUXを意識した実装\n・他エンジニアとの役割分担を前提とした実装調整",
+      "role": "本プロジェクトでは、Shopifyエンジニアとしてトップページの構築を専任で担当。サイト全体の第一印象と導線設計を担うポジションとして、デザイン性と商用ECとしての実用性の両立を意識した実装を行った。",
+      "stack": "・Shopify\n・Liquid\n・Tailwind CSS\n・JavaScript",
+      "screenshot": "https://drive.google.com/file/d/1Qy-QQTnvkNBypRjHMKaeI7Ia8HHUOzuS/view"
+    },
+    {
+      "no": 10,
+      "period": "2025.09~2025.10",
+      "summary": "「 miescape.jp 」は、三重県を中心とした観光情報や体験コンテンツを紹介する Web サイト。既存の旧サイトを参照しつつ、クライアントから共有されたデザインを基に、機能要件を整理し、WordPress を用いてゼロから構築・公開までを一貫して担当した。",
+      "duties": "・旧サイトの機能および導線の分析 \n・クライアント共有のデザインデータを基にした情報設計およびページ構成策定 \n・HTML / CSS コーディングおよびテーマ実装 \n・WordPress を用いた CMS 構築およびテンプレート実装 \n・観光情報一覧、体験メニュー、アクセス情報、お問い合わせ等のページ実装 \n・レスポンシブ対応および UI 表示最適化 \n・基本機能（お問い合わせフォーム等）の実装 \n・サーバー設定・ドメイン管理および本番公開までの一連対応",
+      "role": "本案件では、旧サイトの仕様・機能を踏まえつつ、デザイン再構築・CMS 実装・サーバー公開までを 単独で担当。クライアントの意図を反映し、運用しやすくユーザーにとって見やすい観光情報サイトとして再構築し、安定した公開・運用環境を整備した。",
+      "stack": "・WordPress（テーマ開発・CMS 構築） \n・PHP / CSS \n・JavaScript \n・レスポンシブデザイン \n・Polylang（多言語化）\n・サーバー / ホスティング設定 \n・ドメイン設定",
+      "screenshot": "https://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link"
+    },
+    {
+      "no": 11,
+      "period": "2025.10~2026.01",
+      "summary": "モバイルアプリ「Ribbon」において、既存アプリの機能仕様を分析した上で、Android 版および iOS 版の両方を新規に再構築。FlutterFlow と Firebase を用い、機能互換性を保ちながら、安定性と拡張性を重視したクロスプラットフォーム構成で開発を行った。Android 版はすでに更新リリース済みで、iOS 版は現在 App Store への申請・デプロイ段階にある。",
+      "duties": "・既存アプリ（旧プロジェクト）の機能・画面・挙動の詳細分析\n・既存仕様を踏襲した Android 版アプリの新規構築\n・既存仕様を踏襲した iOS 版アプリの新規構築\n・FlutterFlow による画面設計およびロジック実装\n・Firebase を用いたバックエンド構築（認証、データ管理、ストレージ）\n・クロスプラットフォームを前提とした構成設計\n・動作検証および不具合修正\n・Google Play ストア向けビルド・公開対応\n・App Store 向けビルド作成および申請・デプロイ対応",
+      "role": "本案件では、既存アプリを単に改修するのではなく、旧機能を基準として Android 版・iOS 版の両方を新規に設計・開発。要件整理から実装、ストア公開対応までを一貫して担当し、マルチプラットフォーム展開を実現した。",
+      "stack": "・FlutterFlow\n・Firebase\n・Google Play Console\n・App Store Connect\n・クロスプラットフォーム設計",
+      "screenshot": "https://drive.google.com/file/d/1Qy-QQTnvkNBypRjHMKaeI7Ia8HHUOzuS/view"
+    },
+    {
+      "no": 12,
+      "period": "2025.11~2026.01",
+      "summary": "福祉サービス「OASIS（オアシス）」公式サイト（ oasis-fukushi.jp ）を、クライアントから共有された Adobe XD デザインを基に、WordPress でゼロから構築。サービス内容、事業案内、採用情報などをわかりやすく伝えるサイトとして実装し、公開・運用できる状態にまで仕上げた。",
+      "duties": "・クライアント共有 Adobe XD デザインの内容分析 \n・情報設計およびページ構成の整理 \n・HTML / CSS コーディングおよび UI 実装 \n・WordPress を用いた CMS 構築およびテーマ開発 \n・サービス紹介、事業案内、アクセス情報、採用ページ等の実装 \n・レスポンシブ対応および UI 表示最適化 \n・お問い合わせフォーム等の基本機能実装 \n・テストおよび本番公開までの一連対応",
+      "role": "本案件では、デザインを忠実に再現しつつ、WordPress で CMS 化する部分を 単独で担当。UI 表現と運用性の両立を意識した構築を行い、クライアントが今後更新・運用できるサイトとして完成させた。",
+      "stack": "・WordPress（テーマ開発・CMS 構築） \n・PHP \n・HTML / CSS \n・JavaScript \n・レスポンシブデザイン \n・サーバー / ホスティング設定 \n・ドメイン設定",
+      "screenshot": "https://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link,\nhttps://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link,\nhttps://drive.google.com/file/d/1lnyxNnY99nksh8I2PYDTMR9WpQ_27QMy/view?usp=drive_link"
+    },
+    {
+      "no": 13,
+      "period": "2025.12~2026.01",
+      "summary": "「 ai-plaza.io 」は、国内外の人工知能ツールや生成AIサービスをカテゴリ別に整理し、レビュー・特徴・用途・価格などの情報を一覧／比較できる情報プラットフォームとして構築された Web サイト。AI ツールの評価や導入の判断材料を提供し、ユーザーが最適な AI ツールを選べるようにする情報集約型サイトの構築を担当した。サイトは WordPress を CMS とし、Next.js でフロントエンドを実装するモダンな構成となっている。",
+      "duties": "・サイト目的および情報構造の設計 \n・WordPress 管理画面の定義およびコンテンツ構築設計 \n・Next.js を用いたフロントエンド実装（ページ生成、ルーティング、表示ロジック） \n・カテゴリ別 AI ツール一覧、レビュー詳細ページ、検索機能などの UI 実装 \n・レスポンシブ対応および SEO 観点でのマークアップ最適化 \n・WordPress と Next.js の連携（API／データ連携設計） \n・公開サーバー構築および運用環境設定 \n・テスト、チューニング、本番公開までの一連対応",
+      "role": "本案件では、サイトの 情報構造設計からフロントエンド実装、CMS 連携、公開までを一貫して担当。CMS （WordPress）をバックエンドとして利用しつつ、Next.js をフロントエンドに採用することで高速かつ動的なコンテンツ表示を実現し、ユーザーが AI ツール情報を直感的に比較・検索できる設計を実装した。",
+      "stack": "・WordPress（CMS、データ管理） \n・Next.js（フロントエンド表示、静的／動的ページ生成） \n・React（UI コンポーネント実装） \n・JavaScript（ロジック制御） \n・HTML / CSS（レスポンシブデザイン） \n・API 設計（WordPress API との連携） \n・サーバー / 運用環境設定",
+      "screenshot": "https://drive.google.com/file/d/1E1I9DMtdTmjnEejK3VSBPDxihNMgDiZw/view?usp=drive_link"
+    },
+    {
+      "no": 14,
+      "period": "2026.01",
+      "summary": "「 https://ccom-gbp.com , https://start-map212.com 」\nGBP（Googleビジネスプロフィール）一括投稿システムにおけるInstagram連携機能強化およびMEO支援システムの改修案件。\n既存システムのインスタ連携機能を再設計し、投稿スケジュール管理機能や運用効率化機能を追加。ユーザーフィードバックをもとに、実運用を想定した機能改善および安定性向上を実施した。",
+      "duties": "・要件定義および既存機能の課題整理\n・Instagram連携処理の再設計・改修\n・GBP投稿機能とのデータ連携最適化\n・投稿スケジュール管理機能の設計・実装\n・API連携処理の実装およびエラーハンドリング強化\n・管理画面機能追加（運用支援機能）\n・テスト、動作検証、リリース対応",
+      "role": "本案件ではバックエンド開発担当として参画。\nLaravelを用いたMEO一括投稿システムの改修を単独で担当し、要件整理から設計・実装・テスト・本番反映まで一貫して対応。外部SNS APIとの連携処理設計および非同期処理を含む投稿管理機能を実装し、運用効率と安定性を向上させた。",
+      "stack": "・Laravel\n・PHP\n・JavaScript\n・Instagram API連携\n・Googleビジネスプロフィール（GBP）連携\n・Linux環境",
+      "screenshot": null
+    },
+    {
+      "no": 15,
+      "period": "2026.01",
+      "summary": "「 https://wellforce.jp 」\nワイヤーフレーム設計段階から参画し、デザイン制作、WordPress を用いた CMS 構築、フロントエンド実装までサイト全体を一貫して担当。要件整理をもとに情報設計・UI設計を行い、コーディング、機能実装、テスト、本番公開までを単独で対応し、現在は公開済みサイトとして運用フェーズへ移行している。",
+      "duties": "・クライアント共有デザインおよび要件の分析 \n・サイト構造・ページ構成の設計 \n・HTML / CSS コーディングおよび UI 実装 \n・WordPress を用いた CMS 構築およびテーマ開発 \n・サービス紹介、企業情報、問い合わせフォーム等の実装 \n・レスポンシブ対応および表示最適化 \n・動作検証および本番公開準備",
+      "role": "本プロジェクトでは、ワイヤーフレーム設計・デザイン制作から、WordPress をベースとしたフロントエンド実装および CMS 構築までを単独で担当。デザイン再現性と運用性を重視しながら開発を進め、実装・テスト・本番公開までの一連工程を完了し、現在は公開済みサイトとして運用フェーズへ移行している。",
+      "stack": "・WordPress（テーマ開発・CMS 構築） \n・PHP \n・HTML / CSS \n・JavaScript \n・レスポンシブデザイン \n・サーバー / ホスティング設定 \n・ドメイン設定",
+      "screenshot": "https://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link"
+    },
+    {
+      "no": 16,
+      "period": "2026.01~2026.02",
+      "summary": "既存の不動産関連サイト「 chachamaru-estate.com 」において、新規ページの追加実装および既存ページの表示・構成最適化を担当。運用中サイトを前提に、ユーザー導線の改善や情報整理を行い、閲覧性向上とサイト品質の強化を目的とした改修を実施した。",
+      "duties": "・既存WordPressサイトの構造およびテーマ仕様の調査・把握\n・新規ページの設計および実装（レイアウト構築、コンテンツ反映）\n・既存ページのUI/UX改善および表示最適化\n・レスポンシブ調整およびスタイル調整対応\n・ページ構成の整理および導線改善\n・動作確認および公開環境への反映対応",
+      "role": "本案件では、既存サイトの改修担当として参画。ライブ環境を前提に、既存デザインや構成との整合性を保ちながら、新規ページ追加および既存ページの最適化を実施し、サイト全体の閲覧性・操作性の向上に貢献した。",
+      "stack": "・WordPress（既存テーマ改修／ページ追加実装）\n・PHP /Tailwnd CSS\n・JavaScript\n・レスポンシブデザイン調整\n・UI / UX 改善対応",
+      "screenshot": "https://drive.google.com/file/d/1BBxmkj4yNHsqEWjSgUe1vs84KncQLwt6/view?usp=drive_link"
+    },
+    {
+      "no": 17,
+      "period": "2026.02",
+      "summary": "「 sinmido.com 」において、イベント予約・管理を行うためのWordPressカスタムプラグインを新規開発。管理画面からイベント作成・日程設定・予約上限管理・フォームカスタマイズが可能な独自設計のイベント管理システムを構築。各イベントごとに専用カレンダーを生成し、ユーザーが空き日程を確認しながら予約できる仕組みを実装。既存テーマに依存しない拡張性の高いアーキテクチャで設計し、運用効率と管理性の向上を実現した。",
+      "duties": "・イベント管理機能の要件定義、設計、開発、実装\n・カスタム投稿タイプおよび管理UI設計\n・イベント別カレンダー生成ロジック構築\n・予約上限数制御機能の実装\n・イベントごとのカスタム予約フォーム設計・実装\n・バリデーション設計およびデータ保存処理実装\n・Google reCAPTCHA連携によるスパム対策実装\n・管理画面でのカスタムJS / CSS制御機能実装\n・テスト、動作検証、チューニング対応",
+      "role": "本案件ではカスタムプラグインの単独開発担当として参画。既存テーマや外部予約サービスに依存せず、要件に最適化したイベント管理・予約基盤をゼロから設計・構築。運用者視点での管理効率、ユーザー視点での予約導線最適化を両立させた設計を主導。拡張性・保守性を考慮した構造で実装し、今後の機能追加にも柔軟に対応可能な設計とした。",
+      "stack": "・WordPress（カスタムプラグイン開発）\n・PHP（バックエンドロジック実装）\n・JavaScript（予約UI制御・動的挙動）\n・Tailwind CSS（管理画面・フロントUI設計）\n・MySQL（予約データ管理）\n・Google reCAPTCHA API",
+      "screenshot": "https://drive.google.com/file/d/1S8Q_GU21efHiFWBs92lskSnaeJSwWRnX/view?usp=drive_link"
+    },
+    {
+      "no": 18,
+      "period": "2026.02~2026.03",
+      "summary": "リラクゼーションサロン「 https://n-spa-relax.com/ 」公式Webサイト構築案件。\n支給されたXDデザインをもとに、WordPress環境での実装および多言語対応、外部サービス連携を担当。運用を見据えたCMS構造設計と、表示速度・保守性を意識したテーマ開発を実施した。",
+      "duties": "・XDデザインを基にしたWordPressテーマ開発\n・PHPによるテンプレート実装およびカスタマイズ\n・Tailwind CSSを用いたスタイル設計・構築\n・多言語化対応（Transpress導入・設定）\n・Instagram埋め込みおよびGoogleビジネスプロフィール（GBP）連携\n・さくらサーバー環境での構築およびデプロイ対応\n・表示パフォーマンス最適化および動作検証",
+      "role": "本案件ではWordPress実装担当として参画。\nデザインデータ（XD）をもとに、フロントエンドおよびテーマ実装を単独で担当。PHPによるテンプレート設計、CSS設計、プラグイン選定・導入、サーバー反映まで一貫して対応し、運用可能なCMSサイトとして構築した。",
+      "stack": "・WordPress（オリジナルテーマ開発）\n・PHP\n・Tailwind CSS\n・Transpress（多言語化）\n・さくらサーバー\n・Instagram連携\n・Googleビジネスプロフィール連携",
+      "screenshot": "https://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link,\nhttps://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link,\nhttps://drive.google.com/file/d/1lnyxNnY99nksh8I2PYDTMR9WpQ_27QMy/view?usp=drive_link"
+    },
+    {
+      "no": 19,
+      "period": "2026.03",
+      "summary": "不動産・法務関連サービスサイト「 https://s-legalestate.com/ 」において、会員限定ページのアクセス管理を目的としたカスタム会員管理プラグインの設計・開発を担当。パスワード認証ではなくトークンURLによる認証方式を採用し、管理者が発行するURLからユーザー登録および会員ページへのアクセスを行う仕組みを構築。また、パスワード忘れ時には新しいトークンURLを自動発行しメール送信する機能を実装し、ユーザー管理とアクセス制御を自動化した。",
+      "duties": "・会員限定コンテンツ管理機能の要件整理および設計\n・トークンURLベースのユーザー認証フロー設計\n・カスタム会員管理プラグインの開発\n・管理者向けユーザー追加機能の実装\n・ユーザー登録およびログイン処理の実装\n・パスワード忘れ時のトークン再発行・メール通知機能の開発\n・会員限定ページのアクセス制御ロジック実装\n・テストおよび運用対応",
+      "role": "本案件では会員管理システムの設計・開発を単独で担当。既存CMSの標準機能では対応できない要件に対し、トークンURLによるユーザー認証方式を採用したカスタムプラグインとして実装。\n管理者によるユーザー発行・アクセス制御・パスワード再発行を自動化し、会員限定コンテンツの安全な提供基盤を構築した。",
+      "stack": "・PHP（プラグイン開発）\n・JavaScript\n・HTML / CSS\n・トークン認証ロジック設計\n・メール送信処理\n・ユーザー認証 / アクセス制御",
+      "screenshot": "https://drive.google.com/file/d/1S8Q_GU21efHiFWBs92lskSnaeJSwWRnX/view?usp=drive_link"
+    },
+    {
+      "no": 20,
+      "period": "2026.03",
+      "summary": "闘牛文化を紹介するWebサイト「 https://usi-no-sima.jp  」において、企画・デザインから開発・公開まで一貫して担当。\nトップページのデザイン設計を起点に全体構成を設計し、サブページは設計思想に基づき実装することで、統一感のあるサイト構築を実現。ユーザーが直感的に情報へアクセスできる導線設計と、運用効率の高い管理画面の構築を行った。",
+      "duties": "・サイト構成設計およびトップページデザイン制作\n・WordPressサイトの設計、構築、実装\n・デザインガイドラインに基づく下層ページの構築（個別デザインなしで展開）\n・カテゴリ構造の設計および一覧表示機能の開発\n・管理画面（投稿・商品管理）のカスタマイズおよび運用設計\n・ユーザー導線設計およびUI/UX改善\n・レスポンシブ対応および表示最適化",
+      "role": "本案件では、デザインから開発・公開までを単独で担当。トップページのデザインを基準にサイト全体のUI/UX方針を定義し、個別の下層ページデザインを用意せずに構築することで、開発効率と一貫性を両立。WordPressのカスタマイズを通じて、コンテンツ管理のしやすさとユーザーの回遊性を高める設計を実現した。",
+      "stack": "・WordPress（テーマ開発 / カスタマイズ）\n・PHP（テンプレート開発）\n・JavaScript（UI制御）\n・Tailwind CSS（レスポンシブ対応）\n・カスタム投稿タイプ / カスタムフィールド",
+      "screenshot": null
+    },
+    {
+      "no": 21,
+      "period": "2026.03",
+      "summary": "福岡市に拠点を置く学習塾 「 https://astra.jp 」 の公式Webサイト制作を担当。もともとランディングページ形式で設計されたデザインをベースに、クライアントの要望により情報構造を整理し、小学生・中学生・高校生向けの学習プログラムページを含む複数ページ構成のWebサイトとして再設計・実装を行った。学習方針や通塾設計、学習環境の特徴を分かりやすく伝えるため、ユーザー導線やコンテンツ構成を最適化し、保護者・生徒がスムーズに体験予約へ進めるサイトとして構築した。",
+      "duties": "・LPデザインを基にしたサイト構造設計（LP → 複数ページサイトへの再構成）                \n・WordPress（Arkheテーマ）を用いたCMSサイト構築                                \n・学年別プログラムページ（PRIMARY / BASE / NEXT）の設計・実装                                \n・UIレイアウト設計およびフロントエンド実装                                \n・レスポンシブ対応（PC / タブレット / モバイル）                                \n・面談・体験予約フォーム実装                                \n・最終公開および動作検証",
+      "role": "本案件では Webサイト制作の単独担当として参画。デザイン整理からWordPress実装、ページ分割、UI構築、公開までを一貫して担当。LP形式のデザインを基に、学習塾サービスの内容を分かりやすく伝えるための情報設計およびユーザー導線設計を行い、体験予約につながるWebサイトとして構築した。",
+      "stack": "・WordPress（Arkhe Theme）\t\t\n・UI / UX設計\t\t\t\t\n・レスポンシブデザイン\t\t\t\t\n・フォーム実装（Contact Form 7）",
+      "screenshot": "https://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link,\nhttps://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link,\nhttps://drive.google.com/file/d/1lnyxNnY99nksh8I2PYDTMR9WpQ_27QMy/view?usp=drive_link"
+    },
+    {
+      "no": 22,
+      "period": "2026.02~2026.04",
+      "summary": "ミニドレスのレンタルECサイト構築プロジェクトにおいて、Shopifyをベースとしたオンラインストアの設計・開発を担当。若年女性向けに最適化されたUI/UXを重視し、商品閲覧から購入までの導線設計に加え、レンタル機能の導入を前提とした拡張性の高いEC基盤を構築。デザイン性と実運用のしやすさを両立したサイトを実現。",
+      "duties": "・Shopifyストア全体の要件定義、設計、開発、リリース対応\n・UI/UX設計（モバイルファースト、ターゲット最適化）\n・トップページおよび下層ページのデザイン・実装\n・商品登録、コレクション設計、フィルタ構成の最適化\n・レンタル機能導入に向けたアプリ選定および設計（BookX等）\n・予約フロー（カレンダー選択・在庫管理）の設計\n・SEOを考慮した構造設計および基本最適化\n・クライアントとの要件調整および改善提案",
+      "role": "本案件ではフルスタックエンジニアとして単独で参画し、要件定義から設計、デザイン、開発、リリースまでを一貫して担当。特にECサイトとしての完成度だけでなく、将来的なレンタル機能拡張や運用効率を見据えた設計を重視し、ビジネス要件と技術制約のバランスを取りながらプロジェクトを推進。",
+      "stack": "・Shopify（テーマ開発、ストア構築）\n・Liquid（テンプレート開発）\n・JavaScript（UI制御、動的挙動）\n・HTML / CSS（レイアウト・デザイン実装）\n・Shopifyアプリ連携（BookX 等の予約システム）\n・Figma（UIデザイン、プロトタイピング）",
+      "screenshot": "https://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link,\nhttps://drive.google.com/file/d/1B_K1Xuf0477aXPGTscce5QIPEWzrQb2v/view?usp=drive_link,\nhttps://drive.google.com/file/d/1lnyxNnY99nksh8I2PYDTMR9WpQ_27QMy/view?usp=drive_link"
+    },
+    {
+      "no": 23,
+      "period": "2026.04~",
+      "summary": "現在未定。",
+      "duties": null,
+      "role": null,
+      "stack": null,
+      "screenshot": null
+    }
+  ]
+}
