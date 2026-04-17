@@ -30,20 +30,3 @@ cp .env.example .env
 ```
 
 未設定または取得失敗時は `public/data/works.json` を表示します。
-
-## お問い合わせフォーム（Gmail SMTP）
-
-ブラウザから Gmail に直接 SMTP 接続はできないため、小さな API サーバー（`contact-server/`）がメール送信を行います。
-
-1. `contact-server/.env.example` を `contact-server/.env` にコピーし、`GMAIL_USER` と **アプリ パスワード**（通常パスワードでは不可）、必要なら `CONTACT_TO_EMAIL` を設定する  
-2. 別ターミナルで:
-
-```bash
-cd contact-server
-npm install
-npm start
-```
-
-3. プロジェクトルートで `npm run dev` を実行すると、Vite が `http://127.0.0.1:8787` の API へ `/api/contact` をプロキシします。
-
-本番では `contact-server` を Railway / Render 等にデプロイし、ビルド時に `VITE_CONTACT_API_URL` に `https://（デプロイ先）/api/contact` を指定してください。詳細は `contact-server/README.md` を参照。

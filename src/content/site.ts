@@ -207,6 +207,7 @@ export const site = {
   worksSubtitle:
     'スプレッドシート（Google Apps Script 連携）をデータソースに表示。画像は共有リンクからサムネイル表示します。',
   contactTitle: 'ご連絡',
-  contactIntro: 'お仕事のご相談・ご質問など、下記フォームよりお送りください。',
+  contactBody:
+    'お仕事のご相談は、クラウドソーシング経由またはお問い合わせフォーム（準備中）にて承ります。',
   footer: '© 笑笑',
 } as const
