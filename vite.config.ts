@@ -10,5 +10,11 @@ export default defineConfig({
      * ループバック IP を明示して回避する。
      */
     host: '127.0.0.1',
+    proxy: {
+      '/api/contact': {
+        target: 'http://127.0.0.1:8787',
+        changeOrigin: true,
+      },
+    },
   },
 })
