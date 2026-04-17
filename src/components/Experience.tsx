@@ -11,7 +11,7 @@ export function Experience() {
       </div>
       <ol className="timeline">
         {site.experience.map((item) => (
-          <li key={item.period} className="timeline__item">
+          <li key={item.id} className="timeline__item">
             <div className="timeline__card">
               <div className="timeline__period">{item.period}</div>
               <div className="timeline__org">{item.org}</div>

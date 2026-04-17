@@ -1,4 +1,4 @@
-/** サイト内の固定文言（日本語・resume.md 準拠） */
+/** サイト内の固定文言（日本語・resume.md 準拠。企業名は仮称） */
 
 export const site = {
   name: '笑笑',
@@ -8,9 +8,10 @@ export const site = {
     '要件定義から設計・実装・公開・運用まで一貫対応。Web・モバイル・CMS・生成AIを横断し、ビジネス要件とユーザー体験の両立を重視しています。',
   aboutTitle: '自己紹介',
   aboutBody: [
-    '6年以上、大規模Webサービス、ECプラットフォーム、業務基幹システム、マッチングサービスの設計・開発・運用に従事。フロントエンドからバックエンド、インフラまで一貫して対応可能です。',
-    'フロントエンドでは React / Next.js を中心としたモダンSPA・Headless構成、パフォーマンス最適化（LCP/FCP）、SEO対策、TypeScript による型安全設計を実践。バックエンドでは Node.js / Laravel / Python（FastAPI）による高性能REST API、JWT認証、PostgreSQL チューニングなどを担当。',
-    'AWS・Docker を用いたクラウド開発、Power Platform / Azure による業務効率化、テックリード・PM としてのアジャイル推進・コード品質管理・若手育成の経験があります。',
+    '6年以上にわたりフルスタックエンジニアとして、大規模Webサービス、ECプラットフォーム、業務基幹システム、マッチングサービスの設計・開発・運用に従事してきました。要件定義・基本設計・詳細設計・実装・テスト・運用改善までの全工程を主導した実績があります。',
+    'フロントエンドでは React / Next.js を中心としたモダンSPA・Headless構成、パフォーマンス最適化（LCP/FCP）、SEO、TypeScript による型安全設計を実践。バックエンドでは Node.js / Laravel / Python（FastAPI）による高性能REST API、JWT認証、RDB チューニング、高トラフィック環境への対応を行ってきました。',
+    'AWS・Docker を用いたクラウドネイティブ開発、CI/CD、Power Platform / Azure を用いた業務効率化、テックリード・PM としてのアジャイル推進・設計レビュー・コード品質管理・若手育成の経験があります。生成AI（LLM）を活用したチャットボット設計・実装にも対応可能です。',
+    '技術選定から実装・運用まで一貫して責任を持ち、ビジネス価値の最大化を意識しています。フリーランスでは要件整理から公開までを単独で担当する案件が多く、クライアントとの直接折衝を通じて課題を実行可能な形に落とし込んできました。',
   ],
   skillsTitle: '活かせるスキル',
   /** resume.md「活かせる経験・知識・技術」＋技術スタックを網羅 */
@@ -79,77 +80,129 @@ export const site = {
       ],
     },
   ],
-  /** resume 記載のツール・計測（タグ表示用） */
   skillTags: [
     'Git / GitHub',
     'Figma',
     'Adobe XD',
     'Google Analytics（GA4）',
     'Google Tag Manager',
+    'Slack / Jira',
   ],
-  experienceTitle: '職務経歴ハイライト',
-  experienceSubtitle: '職務経歴書に基づく主な所属・プロジェクトです（新しい順）。',
+  experienceTitle: '職務経歴',
+  experienceSubtitle:
+    '職務経歴書に基づく記載です（新しい順）。クライアント・所属企業名はポートフォリオ用に仮称または業態のみとしています。',
+  /** 2020年〜現在までの全期間。org は仮称。 */
   experience: [
     {
+      id: 'exp-2025-freelance',
       period: '2025年1月〜現在',
-      org: 'フリーランス（CrowdWorks・Lancers）',
+      org: 'フリーランス（クラウドソーシング経由）',
       role: 'フルスタックエンジニア',
       summary:
         'Webサイト構築、EC、モバイルアプリ、既存改修、AI機能実装など幅広く担当。要件定義から設計・実装・公開・運用まで一貫対応。',
       highlights: [
-        'AIチャットボット（補助金ポータル）単独開発、プロンプト設計〜公開まで',
-        'Laravel サイト保守、FlutterFlow＋Firebase で「ドレミとあそぼ」Android/iOS 公開',
-        'MERN ポータル、WordPress/Shopify 新規構築、Next.js×WordPress 連携など',
+        '生成AIを用いたチャットボット単独開発（プロンプト設計〜公開）',
+        'Laravel 既存サイト保守、FlutterFlow＋Firebase によるモバイルアプリ公開',
+        'MERN・WordPress / Shopify・Next.js×Headless CMS 連携など',
       ],
     },
     {
+      id: 'exp-2024-finance',
       period: '2024年10月〜12月',
-      org: '金融機関向け既存システム改修（受託）',
+      org: '受託開発パートナー経由（金融ドメイン）',
       role: 'エンジニア',
-      summary: 'Symfony 構築システムにおける本番 SFTP アップロードエラーの原因調査・修正・再発防止。',
-      highlights: ['Symfony / PHP / MySQL', 'ログイン情報不備の特定と修正、ナレッジ化'],
+      summary:
+        'Symfony で構築された既存システムにおける本番環境の SFTP アップロードエラー対応。原因調査、修正、テスト、運用確認まで担当。',
+      highlights: ['Symfony / PHP / MySQL', '本番障害の原因特定・再発防止ドキュメント化'],
     },
     {
+      id: 'exp-2024-laravel-mobile',
       period: '2024年4月〜10月',
-      org: '株式会社JUTJOY',
+      org: 'レイスター・テクノロジーズ株式会社（仮称）',
       role: 'フルスタックエンジニア（モバイル・サーバーサイド）',
       summary:
-        'Flutter アプリと FastAPI 在庫APIの連携強化、および Laravel 製公式サイト（bifesta.jp）の改修・運用最適化。',
+        'クロスプラットフォームアプリと FastAPI 在庫APIの連携強化、およびコスメブランド向け公式サイト（Laravel）の改修・CDN・計測・フロント最適化。',
       highlights: [
-        '在庫API・リアルタイム同期・キャッシュ見直し、Flutter パフォーマンス改善',
-        'Laravel / AWS CloudFront / GA4 / GTM / GSAP / PWA・セキュリティヘッダー対応',
+        'Flutter・在庫API・リアルタイム同期・キャッシュ設計',
+        'Laravel / CloudFront / GA4 / GTM / GSAP / PWA・セキュリティヘッダー',
       ],
     },
     {
+      id: 'exp-2024-pp',
       period: '2024年1月〜3月',
-      org: '株式会社JUTJOY',
+      org: 'レイスター・テクノロジーズ株式会社（仮称）',
       role: 'フルスタックエンジニア',
-      summary: 'Power Platform を用いた申請・承認ワークフロー構築。Excel/メール運用のデジタル化。',
-      highlights: ['PowerApps / Power Automate / SharePoint 連携', '承認プロセス自動化'],
+      summary:
+        'Power Platform を用いた申請・承認ワークフロー構築。従来 Excel・メール運用の業務プロセスをデジタル化。',
+      highlights: ['PowerApps / Power Automate / SharePoint 連携', '承認フロー自動化・業務時間削減'],
     },
     {
+      id: 'exp-2023-saas-tl',
       period: '2023年7月〜2024年1月',
-      org: '株式会社JUTJOY',
+      org: 'レイスター・テクノロジーズ株式会社（仮称）',
       role: 'テックリード / フルスタックエンジニア',
       summary:
-        'BtoB向け業務管理SaaSの新規構築。マルチテナント・JWT/RBAC・FastAPI・Next.js・PostgreSQL・AWS（EC2/RDS）。',
+        'BtoB向け業務管理SaaSの新規構築。マルチテナント、JWT・RBAC、FastAPI、Next.js、PostgreSQL、AWS（EC2/RDS）、Docker。',
       highlights: [
-        '要件定義からアーキテクチャ設計、ダッシュボードUI、集計ロジック、Docker 標準化',
-        'コードレビュー・技術方針策定',
+        '要件定義〜SaaSアーキテクチャ・ダッシュボード・集計ロジック',
+        'コードレビュー・技術方針・開発環境標準化',
       ],
     },
     {
-      period: '2022年2月〜2023年6月',
-      org: '株式会社JUTJOY',
-      role: 'フルスタックエンジニア',
+      id: 'exp-2022-api',
+      period: '2022年10月〜2023年6月',
+      org: 'レイスター・テクノロジーズ株式会社（仮称）',
+      role: 'バックエンド中心フルスタックエンジニア',
       summary:
-        '業務管理SaaSにおける FastAPI REST API 基盤の構築・Next.js 管理画面実装。高トラフィック対応・JWT・PostgreSQL 最適化。',
+        '大量リクエストを捌く REST API 基盤を FastAPI で構築。マッチング・データ同期・バッチ処理。React フロント連携。',
       highlights: [
-        '平均レスポンス200ms以下、インデックス最適化',
-        'マッチング・データ同期・バッチ処理',
+        '平均レスポンス200ms以下、PostgreSQL インデックス最適化',
+        'JWT 認証・高信頼性API設計',
       ],
     },
-  ] as const,
+    {
+      id: 'exp-2022-saas',
+      period: '2022年2月〜2022年9月',
+      org: 'レイスター・テクノロジーズ株式会社（仮称）',
+      role: 'フルスタックエンジニア',
+      summary:
+        '業務管理SaaS新規構築に参画。FastAPI による REST API、Next.js（TypeScript）管理画面、PostgreSQL、JWT、Docker、チーム開発。',
+      highlights: ['API・管理画面の実装・パフォーマンス改善', 'Git を用いたチーム開発'],
+    },
+    {
+      id: 'exp-2021-ec-platform',
+      period: '2021年4月〜2021年12月',
+      org: 'デルタリンク・パートナーズ株式会社（仮称）経由',
+      role: 'フルスタックエンジニア',
+      summary:
+        '国内大手デジタル・ECプラットフォームにおける機能改善および新機能開発。高トラフィック環境でのパフォーマンスと安定運用を担当。',
+      highlights: [
+        'React / Next.js・Node.js API・MySQL・Redux/MobX',
+        'レンダリング・API最適化、コードレビュー、アジャイル開発',
+      ],
+    },
+    {
+      id: 'exp-2020-ec-saas',
+      period: '2020年9月〜2021年3月',
+      org: 'デルタリンク・パートナーズ株式会社（仮称）経由',
+      role: 'フルスタックエンジニア',
+      summary:
+        'EC事業者向けストア運営支援プラットフォームの設計・開発。商品・受注・売上分析などを統合した管理基盤。',
+      highlights: [
+        'Laravel / Vue.js・認可・外部API連携・バッチ集計',
+        'DB設計・クエリチューニング・管理画面UX改善',
+      ],
+    },
+    {
+      id: 'exp-2020-medical-fe',
+      period: '2020年5月〜2020年8月',
+      org: 'デルタリンク・パートナーズ株式会社（仮称）経由',
+      role: 'フロントエンドエンジニア',
+      summary:
+        '美容医療領域の検索・比較プラットフォーム新規開発。エリア・施術・悩み別検索と SSR による SEO を意識したフロントを担当。',
+      highlights: ['Vue.js / Nuxt.js・Vuex・REST 連携', 'SSR・コンポーネント設計・パフォーマンス最適化'],
+    },
+  ],
   worksTitle: '制作・開発実績',
   worksSubtitle:
     'スプレッドシート（Google Apps Script 連携）をデータソースに表示。画像は共有リンクからサムネイル表示します。',
