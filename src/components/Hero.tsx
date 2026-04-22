@@ -7,8 +7,8 @@ export function Hero() {
         <img
           className="hero__avatar"
           src="/avatar.png"
-          width={160}
-          height={160}
+          width={180}
+          height={180}
           alt="笑笑のプロフィール画像"
         />
         <div className="hero__blob" aria-hidden />
