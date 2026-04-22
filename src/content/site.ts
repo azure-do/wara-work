@@ -217,9 +217,9 @@ export const site = {
   ],
   worksTitle: "制作・開発実績",
   worksSubtitle:
-    "スプレッドシート（Google Apps Script 連携）をデータソースに表示。画像は共有リンクからサムネイル表示します。",
+    "以下、2025年以降、フリーランスとして活動してきた際の作業内容をまとめています。",
   contactTitle: "ご連絡",
   contactBody:
-    "お仕事のご相談は、クラウドソーシング経由またはお問い合わせフォーム（準備中）にて承ります。",
+    "お仕事のご相談は、Lancers・CrowdWorks・Coconalaなどのクラウドソーシング経由にて承っております。",
   footer: "© 笑笑",
 } as const;
