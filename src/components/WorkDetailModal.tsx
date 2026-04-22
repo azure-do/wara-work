@@ -12,8 +12,21 @@ function stripStars(s: string) {
   return s.replace(/\*/g, '')
 }
 
+function extractLiveSiteUrl(project: WorkProject): string | null {
+  const source = [project.summary, project.duties, project.role, project.stack]
+    .filter(Boolean)
+    .map((text) => stripStars(text as string))
+    .join('\n')
+  const match = source.match(/(?:https?:\/\/)?(?:www\.)?[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+(?:\/[^\s"'<>()]*)?/i)
+  if (!match) return null
+  const trimmed = match[0].replace(/[)\]>,.。!！?？」』）]+$/g, '')
+  if (!trimmed) return null
+  return /^https?:\/\//i.test(trimmed) ? trimmed : `https://${trimmed}`
+}
+
 export function WorkDetailModal({ project, imageUrls, onClose }: Props) {
   const titleId = useId()
+  const liveSiteUrl = project ? extractLiveSiteUrl(project) : null
 
   useEffect(() => {
     if (!project) return
@@ -60,9 +73,21 @@ export function WorkDetailModal({ project, imageUrls, onClose }: Props) {
             {project.no != null && <span className="modal-dialog__no">#{project.no}</span>}
             <span className="modal-dialog__period">{project.period}</span>
           </p>
-          <h2 id={titleId} className="modal-dialog__title">
-            {(project.summary?.split('\n')[0] ?? '実績詳細').slice(0, 200)}
-          </h2>
+          <div className="modal-dialog__title-row">
+            <h2 id={titleId} className="modal-dialog__title">
+              {(project.summary?.split('\n')[0] ?? '実績詳細').slice(0, 200)}
+            </h2>
+            {liveSiteUrl && (
+              <a
+                className="modal-dialog__visit-link"
+                href={liveSiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                サイトを見る
+              </a>
+            )}
+          </div>
           {project.summary && (
             <div className="modal-block">
               <h3 className="modal-block__label">案件概要</h3>
