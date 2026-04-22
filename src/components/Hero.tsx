@@ -1,4 +1,6 @@
 import { site } from '../content/site'
+import lancerProIcon from '../assets/lancer_pro.svg'
+import crowdworksProIcon from '../assets/crowdworks_pro.png'
 
 export function Hero() {
   return (
@@ -15,7 +17,13 @@ export function Hero() {
       </div>
       <div className="hero__text">
         <p className="hero__eyebrow">{site.role}</p>
-        <h1 id="hero-title">{site.name}</h1>
+        <div className="hero__title-row">
+          <h1 id="hero-title">{site.name}</h1>
+          <div className="hero__rank-icons" aria-label="クラウドソーシング認定ステータス">
+            <img className="hero__certified-icon" src={lancerProIcon} alt="Lancers認定ランサー" />
+            <img className="hero__certified-icon" src={crowdworksProIcon} alt="CrowdWorks PRO認定" />
+          </div>
+        </div>
         <p className="hero__lead">{site.heroLead}</p>
       </div>
     </section>

@@ -202,11 +202,25 @@ main section[id] {
 }
 
 .hero h1 {
-  margin: 0 0 1rem;
+  margin: 0;
   font-size: clamp(2rem, 4.5vw, 3rem);
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.02em;
+}
+
+.hero__title-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+}
+
+.hero__rank-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
 }
 
 .hero__lead {
@@ -214,6 +228,13 @@ main section[id] {
   max-width: 52ch;
   color: var(--text-soft);
   font-size: 1.05rem;
+}
+
+.hero__certified-icon {
+  display: block;
+  width: 42px;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* —— Sections —— */
@@ -268,48 +289,6 @@ main section[id] {
 .prose--center {
   text-align: center;
   margin: 0;
-}
-
-.contact-lancers {
-  margin: 1.25rem auto 0;
-  width: min(760px, 100%);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  background: var(--bg-elevated);
-  box-shadow: var(--shadow-sm);
-  overflow: hidden;
-}
-
-.contact-lancers__banner {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.contact-lancers__status {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 0.85rem 1rem 1rem;
-  font-size: 0.9rem;
-  color: var(--text-soft);
-  line-height: 1.55;
-  border-top: 1px solid var(--border);
-}
-
-.contact-lancers__status-icon {
-  flex-shrink: 0;
-  width: 110px;
-  height: auto;
-}
-
-@media (max-width: 720px) {
-  .contact-lancers__status {
-    align-items: flex-start;
-    flex-direction: column;
-  }
 }
 
 /* —— Skills —— */
