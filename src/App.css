@@ -758,6 +758,30 @@ main section[id] {
   background: #fff;
 }
 
+@media (max-width: 720px) {
+  .modal-close {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .image-slider__nav {
+    width: 1.85rem;
+    height: 1.85rem;
+    font-size: 1rem;
+  }
+
+  .image-slider__nav--prev {
+    left: 0.35rem;
+  }
+
+  .image-slider__nav--next {
+    right: 0.35rem;
+  }
+}
+
 .modal-dialog__slider {
   border-bottom: 1px solid var(--border);
 }
